@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Acessibilidade em Web</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+
+  <body>
+    <header>
+        <nav id="nav">
+
+            <a class="navlink" href="index.html">HOME</a>
+            <a class="navlink" href="pagina1.html">INFORMAÇÕES</a>
+            <a class="navlink" href="pagina2.html">TECNOLOGIA</a>
+            <a class="navlink" href="pagina3.html">APOIADORES</a>
+            <a class="navlink" href="pagina4.html">LINKS</a>
+
+          </nav>
+
+    </header>    
+
+    <div class="banner">
+        <div class="hero-text">
+
+          <h1>QUEM SÃO AS PESSOAS AFETADAS PELA ACESSIBILIDADE DIGITAL?</h1>
+          <p>Entenda quem precisa de acessibilidade digital, quais os tipos de deficiências que afetam o acesso à internet e como você, como desenvolvedor web, pode ajudar</p>
+          <a href="pagina1.html">
+                <button>SAIBA MAIS</button>
+          </a>
+          <img src="https://pyxys.com.br/wp-content/uploads/2023/07/acessibilidade-na-tecnologia-blog-pyxys1.png" alt ="Na imagem ao fundo há um par de mãos utilizando um equipamento de display braile."style="opacity:0;filter:alpha(opacity=0)">
+
+        </div>  
+      </div>
+
+    <section class="requisitos">
+        <h1>OS PRINCÍPIOS BÁSICOS DA ACESSIBILIDADE DIGITAL</h1>
+        <p>UM PEQUENO RESUMO PARA FUTUROS DESENVOLVEDORES</p>
+    </section>
+
+    <section class="introducao">
+
+        <div class="colunas">
+            <img src="imagens/01.png" alt="A imagem ilustra o desenho de uma página web com um olho no canto inferior direito, as linhas são azuis.">
+            <h1>PERCEPTÍVEL</h1>
+            <p>As informações e os componentes da interface do usuário devem ser apresentados em formas que possam ser percebidas facilmente pelo usuário.</p>
+        </div>
+
+        <div class="colunas">
+            <img src="imagens/03.png" alt="A imagem ilustra o desenho de três engrenagens de máquina conectadas, as linhas são verdes.">
+            <h1>OPERÁVEL</h1>
+            <p>Os componentes de interface de usuário e a navegação devem ser operáveis, por exemplo: todas as funcionalidades da página estão disponíveis via teclado.</p>
+        </div>
+
+        <div class="colunas">
+            <img src="imagens/04.png" alt="A imagem ilustra o desenho de uma cabeça em perfil com uma lupa e linhas dentro da lupa, as linhas são roxas.">
+            <h1>COMPREENSÍVEL</h1>
+            <p>A informação e a operação da interface de usuário devem ser compreensíveis, por exemplo: a página possui indicador da linguagem no cabeçalho.</p>
+        </div>
+
+        <div class="colunas">
+            <img src="imagens/02.png" alt="A imagem ilustra o desenho de um braço segurando um halter de academia, as linhas são vermelhas.">
+            <h1>ROBUSTO</h1>
+            <p>O conteúdo deve ser robusto o suficiente para poder ser interpretado de forma confiável por uma ampla variedade de agentes de usuário, incluindo tecnologias assistivas.</p>
+        </div>
+
+    </section>
+
+    <section class="porqueajudar">
+        <h1>MAS AFINAL, O QUE É A ACESSIBILIDADE DIGITAL?</h1>
+        <iframe width="720" height="480" src="https://www.youtube.com/embed/9FMycAmv9WY?si=rqWB5rAjwOeBOAyj" title="VÍDEO: ACESSIBILIDADE DIGITAL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+
+    <section class="leideinclusao">
+        <div class="nomedalei">
+            <h1>LEI BRASILEIRA DE INCLUSÃO DA PESSOA COM DEFICIÊNCIA</h1>
+            <p>LEI Nº 13.146, DE 6 DE JULHO DE 2015</p>
+        </div>
+
+        <div class="descricao">
+            <p> Conhecida como Estatuto da Pessoa com Deficiência tem como objetivo assegurar e promover, em condições de igualdade, 
+                o exercício dos direitos e das liberdades fundamentais por pessoas com deficiência, visando à sua inclusão social e cidadania.
+                A LBI tem como base a Convenção da ONU sobre os Direitos das Pessoas com Deficiência, o primeiro tratado internacional de direitos 
+                humanos a ser incorporado pelo ordenamento jurídico brasileiro com o status de emenda constitucional.</p>
+            <a href="https://www2.senado.leg.br/bdsf/bitstream/handle/id/554329/estatuto_da_pessoa_com_deficiencia_3ed.pdf">
+                <button>CONHEÇA MAIS SOBRE O ESTATUTO</button>
+            </a>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p>Desenvolvido por Camila Araújo Pereira</p>
+    </footer>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+
+  </body>
+
+</html>

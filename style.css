@@ -1,0 +1,251 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+/**FIM DO BODY**/
+
+/** MENU DE NAVEGAÇÃO **/
+
+nav {
+    padding: 15px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    height: 45px;
+    background-color: #ffffff;
+  }
+
+  .navlink  {
+    transition: 0.4s;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 0 10px;
+    padding: 0 50px;
+  }
+
+  .navlink:hover { 
+    background-color: black;
+    color: #fff;
+    padding: 24px 50px;
+  }
+
+  .navlink:active {
+    background-color: black;
+    color: #fff;
+    padding: 24px 50px;
+  }
+
+/**  FIM DO MENU DE NAVEGAÇÃO **/
+
+/** BANNER INICIAL **/
+
+.banner {
+    background-image:
+    linear-gradient(to top right, rgba(0, 0, 0, 0.5) 10%, rgba(0,0,0, 0.80 ) 60%),
+    url(https://pyxys.com.br/wp-content/uploads/2023/07/acessibilidade-na-tecnologia-blog-pyxys1.png);
+    height: 500px;
+    width: 100%;
+    margin-top: -5px;
+    background-attachment: fixed, cover;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.hero-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 8%;
+
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+    margin-top: -15px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-top: -15px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+}
+
+.hero-text img{
+    height:5%;
+    width: 5%;
+}
+
+.hero-text button {
+    font-size: 20px;
+    height:60px;
+    width: 210px;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+    transition-duration: 0.4s;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+  
+.hero-text button:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+
+/** FIM DO BANNER **/
+
+/** TÍTULO DAS COLUNAS **/
+
+.requisitos {
+    position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+    padding-top: 40px;
+    padding-left: 0;
+    text-align: center;
+    font-size: 25px;
+}
+
+.requisitos p{
+    margin-top: -20px;
+    font-size: 20px;
+}
+
+/** FIM DO TÍTULO DAS COLUNAS **/
+
+/** CONTAINERS EM COLUNAS **/
+
+.introducao{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.colunas{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width:20rem;
+    min-width:10rem;
+    margin: 40px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.colunas img{
+    width: 60%;
+}
+
+.colunas h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.colunas p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+/** FIM DO CONTAINER EM COLUNAS **/
+
+/** CONTAINER DE VÍDEO **/
+
+.porqueajudar{
+    background-color: black;
+}
+
+.porqueajudar h1{ 
+    position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 0;
+    text-align: center;
+    font-size: 35px;
+}
+
+.porqueajudar iframe{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 32%;
+    padding-bottom: 50px;
+}
+
+/** FIM DO CONTAINER DE VÍDEO**/
+
+/** LEI DE INCLUSÃO **/
+
+.leideinclusao {
+    position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+    padding-top: 40px;
+    padding-left: 0;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.leideinclusao p{
+    margin-top: -20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.nomedalei {
+    padding-bottom: 20px;
+}
+
+.descricao p{
+    display: flex;
+    position: center;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 18px;
+}
+
+.descricao button{
+    position: center;
+    font-size: 20px;
+    height:60px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    transition-duration: 0.4s;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.descricao button:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+/** FIM DA LEI DE INCLUSÃO **/
+
+/** FOOTER **/
+
+footer {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+/** FIM DO FOOTER **/
